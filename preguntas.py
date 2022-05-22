@@ -129,7 +129,7 @@ def pregunta_04():
     # aleatorios es 53. El tamaño de la muestra de entrenamiento es del 80%
     (X_train, X_test, y_train, y_test,) = train_test_split(
         X_fertility,
-        X_fertility,
+        y_life,
         test_size=0.2,
         random_state=53,
     )
